@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #f5f5f2;
+  font-family: 'Helvetica Neue', sans-serif; }
+
+.container {
+  width: 500px;
+  background-color: white;
+  margin: 0px auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 15px 30px; }
+  .container h1 {
+    font-size: 30px;
+    font-weight: bold; }
+  .container #search {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd; }
+  .container .track {
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    position: relative; }
+    .container .track img {
+      width: 120px;
+      height: 120px; }
+    .container .track p {
+      float: right;
+      position: absolute; }
+    .container .track .title {
+      font-weight: bold;
+      font-size: 18px;
+      top: 0px;
+      margin: 0px;
+      left: 130px; }
+    .container .track .artist {
+      top: 10px;
+      left: 130px; }
+    .container .track audio {
+      float: right;
+      position: absolute;
+      top: 60px;
+      left: 130px; }
+
+/*# sourceMappingURL=styles.css.map */
